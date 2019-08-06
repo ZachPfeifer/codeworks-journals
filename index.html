@@ -1,39 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+  body,
+  h1 {
+    font-family: "Raleway", sans-serif
+  }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Zach's Codeworks Journals</title>
-</head>
-<!--what i did before here  / what i hope to do / 3 things-->
+  body,
+  html {
+    height: 100%
+  }
 
-<body style="background-color:powderblue;">
-  <center>
-    <h1 style=color:red>Hello My Name is Zach</h1>
-    <p>
-      <a>I took some classes in High School with computer coding and web design and it has sparked my interests in
-        technology
-        in
-        general. I have very basic levels of programming but I have always wanted learn more but never had the formal
-        opportunity to be taught computer languages. I currently work for telecommunication company that does technical
-        support
-        for Apple computers and products. I've worked there for just over a year and a half which has driven me to
-        become
-        even
-        more interested in coding and the field of technology. I heard about this program from a friend and decided that
-        this
-        would be a perfect opportunity to progress my knowledge and help me continue towards my goal of working in a
-        field
-        with
-        computer coding.</a>
+  .bgimg {
+    background-image: url('/w3images/forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+</style>
+
+<body>
+
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+
+    </div>
+    <div class="w3-display-middle">
+      <h1 class="w3-jumbo w3-animate-top"> Hello My Name is Zach
+      </h1>
+      <hr class="w3-border-grey" style="margin:auto;width:40%">
+      <p class="w3-large w3-center">
+        <h1>A Little About Me:</h1>
+        <a>I took some classes in High School with computer coding and web design and it has sparked my interests in
+          technology in general. I have very basic levels of programming but I have always wanted learn more but never
+          had the formal opportunity to be taught computer languages. I currently work for telecommunication company
+          that does technical support for Apple computers and products. I've worked there for just over a year and a
+          half which has driven me to become even more interested in coding and the field of technology. I heard about
+          this program from a friend and decided that this would be a perfect opportunity to progress my knowledge and
+          help me continue towards my goal of working in a field with computer coding.
+        </a>
+      </p>
       <h2> 3 Things About Me</h2>
-      <li style=color:purple>Love Anime</li>
-      <li style=color:gold>Love Food</li>
-      <li style=color:purple>Love only My Catas</li>
-    </p>
-  </center>
+      <li>Love Anime</li>
+      <li>Love Food</li>
+      <li> Love only My Catas</li>
+    </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+      Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+    </div>
+  </div>
+
 </body>
 
 </html>
