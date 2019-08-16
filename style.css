@@ -1,15 +1,20 @@
-body,
+body, a, li, h2,
   h1 {
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
+    color: rgb(250, 210, 210);
+    font-style: italic;
+
   }
 
   body,
   html {
-    height: 100%
+    height: 100%;
+    text-align: center;
+
   }
 
   .bgimg {
-    background-image: url('/w3images/forestbridge.jpg');
+    background-image: url('https://spacegardening.files.wordpress.com/2015/06/zen-rock-garden.jpg?w=640');
     min-height: 100%;
     background-position: center;
     background-size: cover;
